@@ -2,7 +2,6 @@
 
 Aplikasi web ini dibangun menggunakan framework Flask (Python) untuk mendeteksi tingkat keparahan penyakit Parkinson berdasarkan gambar tulisan tangan (spiral atau gelombang). Aplikasi ini memanfaatkan model Machine Learning yang telah dilatih untuk mengklasifikasikan gambar ke dalam empat kategori: Sehat, Stadium Awal (Ringan), Stadium Menengah (Sedang), dan Stadium Lanjut (Berat).
 
-![Screenshot Aplikasi](https://i.imgur.com/r6L4nCG.png) 
 ## Fitur Utama
 * **Halaman Informasi:** Menyediakan penjelasan lengkap mengenai penyakit Parkinson, gejala, penyebab, dan referensi medis.
 * **Prediksi Berbasis Gambar:** Pengguna dapat mengunggah gambar tulisan tangan untuk mendapatkan prediksi real-time.
