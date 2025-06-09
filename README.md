@@ -29,7 +29,9 @@ Berikut adalah panduan untuk menjalankan aplikasi ini di komputer Anda sendiri.
     ```bash
     git clone [https://github.com/NAMA_ANDA/NAMA_REPO_ANDA.git](https://github.com/NAMA_ANDA/NAMA_REPO_ANDA.git)
     ```
-    2.  **Masuk ke direktori proyek:**
+    *Ganti `NAMA_ANDA` dan `NAMA_REPO_ANDA` dengan milik Anda.*
+
+2.  **Masuk ke direktori proyek:**
     ```bash
     cd nama-repo-anda
     ```
@@ -47,9 +49,9 @@ Berikut adalah panduan untuk menjalankan aplikasi ini di komputer Anda sendiri.
     ```
 
 4.  **Install semua library yang dibutuhkan:**
-    Gunakan file `requirements.txt` yang sudah disediakan untuk menginstal semua dependensi secara otomatis.
+    Jalankan perintah di bawah ini di dalam terminal yang `venv`-nya sudah aktif. Perintah ini akan menginstal semua library dengan versi yang sudah dipastikan kompatibel.
     ```bash
-    pip install -r requirements.txt
+    pip install Flask==2.2.2 gunicorn==2.0.1 joblib==1.2.0 scikit-learn==1.2.2 numpy==1.23.5 tensorflow==2.10.0 opencv-python==4.8.0.76 Pillow==9.5.0 Werkzeug==2.2.2 Jinja2==3.1.2 protobuf==3.19.6
     ```
 
 5.  **Jalankan aplikasi:**
